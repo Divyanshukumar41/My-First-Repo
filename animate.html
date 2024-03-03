@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <script type="text/javascript"></script>
+</head>
+<body>
+            <!-- <h1>calculate to number to each other </h1>
+             1st number : <input type=" number" id="firstname"><br>
+             2nd number : <input type=" number" id="secondname"><br>
+             <input type="button"  onclick="multiplyby()" value="multiply">
+             <input type="button" onclick="Devidby()" value="Divid"><br>
+             <h2>Here is result</h2>
+             <span id="resullt"></span> -->
+
+
+
+<!-- onload="myfunction('target')">
+      <pre id="target">Divynshu</pre> -->
+      <script>
+            // // dfine a function to cheack if a given year is a leap year 
+            // function leapyere(year) {
+            //       // reatun true if the year divisible by 4 but not divisible by  100 unless it's also divisible by 400 
+            //       return (year % 100 === 0)?(year % 400 === 0) : (year  % 4 === 0);
+            // }
+            // // test the function with verious year and log the resullt to console'''''
+            // console.log(leapyere(400)) // expected output....
+            // console.log(leapyere(1300))
+            // console.log(leapyere(500))
+            // console.log(leapyere(2000))
+            // console.log(leapyere(1600))
+            // console.log(leapyere(2300))
+
+            // // generate a rendom number beetween 1 and 10(inclusive).......................number mached.........
+            // var num = Math.ceil(Math.random() * 10);
+            // // Display number 
+            // // console.log(num)
+            // var gnum = prompt("Guss the number Between 1 and 10");
+            // if( gnum === num){
+            //       console.log("maching ")
+            // }else{
+            //       console.log("not maching")
+            // }
+            // console.log("number is not maching" + " " +gnum);/
+            // how much days are come chrismas day.................................................................
+            // var today = new Date();
+            // var crsm = new Date(today.getFullYear() , 11 , 25);
+            // if(today.getMonth() == 11 && today.getDate()){
+            //       crsm.setFullYear(crsm.getFullYear() +1);
+                  
+            // }
+            // var one_day = 1000 * 60 * 60 * 24;
+            // console.log(Math.ceil((crsm.getTime() -today.getTime()) / (one_day)) + "days left until chrismasay");
+
+
+            // function multiplyby() {
+            //       num1 = document.getElementById("firstname").value;
+            //       num2 = document.getElementById("secondname").value;
+            //       document.getElementById("resullt").innerHTML = num1*num2;
+                  
+            // }
+
+            // function Devidby() {
+            //       num1 = document.getElementById("firstname").value;
+            //       num2 = document.getElementById("secondname").value;
+            //       document.getElementById("resullt").innerHTML = num1/num2;
+
+            // // }
+            // get the websiste URL(loding page).....................................................................................
+            // document.write(document.URL);
+            // console.log(`${document.URL}`);
+
+            // // to creat a variable using user difine name........................................................
+            // var vaar_name  = 'abcd';
+            // var n  = 130;
+            // this[vaar_name] = n;
+            // document.write(this[vaar_name]);
+            // // get the  filename of extention............................................................
+            // var filename = "system.php";
+            // // var filename = "scop.js";
+            // // console.log(filename.split('.').pop()+ "<br>" +
+            // // filename.split('.').pop()+ "<br>" );0
+            // //  compute the sum of the two integer. if two value are the same, then return triple their sum...................
+            // function TripleSum(x,y) {
+            //       if(x===y){
+            //             return 3*(x+y);
+            //       }else{
+            //             return (x+y)
+            //       }
+            // // }
+            // // console.log(TripleSum(10,120));
+                    
+            // const testhundred = (x) => (Math.abs(100 - x) <= 20) || (Math.abs(400 - x) <= 20);
+            // console.log(testhundred(10));
+            // console.log(testhundred(20));
+            // console.log(testhundred(500));
+            // // console.log(testhundred(200));
+
+            // function positive_negative(x,y){
+            //       if((x < 0 && y > 0) || (x > 0 && y < 0)){
+            //             return true;
+            //       }else{
+            //             return false;
+            //       }
+            // };
+            // console.log(positive_negative(2,-2))
+            // // console.log(positive_negative(2,2))
+            // // console.log(positive_negative(-2,3))
+            // // console.log(positive_negative(2,2))
+            // // console.log(positive_negative(-2,-4))
+            // // remove a charector_position and modified string,............................................
+            // function remove_charector(str ,char_posi ) {
+            //       part1 = str.substring(0  , char_posi);
+            //       part2 = str.substring(char_posi + 1, str.length);
+            //       return(part1 + part2);
+            // }
+            // console.log(remove_charector("python",0));
+            // // console.log(remove_charector("python",3));
+            // // console.log(remove_charector("python",5));
+
+            // function front_back3(str) {
+            //       if(str.length){
+            //             back = str.substring(str. length - 3);
+            //             return back + str +str;
+
+            // //       }else{
+            // //       }
+            // // }     
+            // //       console.log(front_back3("abc"));
+            // //       console.log(front_back3("ab"));
+            // //       console.log(front_back3("w3scource"));
+            // // To check wether a string start with str "java" if it does not otherwise.......................
+            // function start_spac_str(str) {
+            //       if(str.length < 4){
+            //             return false;
+            //       }
+            //       front = str.substring(0,4);
+            //       if(front == 'java'){
+            //             return true;
+
+            //       }else{
+            //             return false;
+
+            //       }
+
+            // }
+            // console.log(start_spac_str("javascjript"));
+            // console.log(start_spac_str("javascr"));
+            // console.log(start_spac_str("java"));
+            // console.log(start_spac_str("python"));
+            // The value having beetwen 50 and 99..........................
+            // function range_check(x,y) {
+            //       if((x >= 50 , y <= 99) || (y >= 50, y <= 99)){
+            //             return true;
+            //       }else {
+            //             return false;a
+            //       }
+            // }
+            // console.log(range_check(54, 99));
+            // console.log(range_check(50, 98));
+            // console.log(range_check(54, 98));
+            // console.log(range_check(50, 100));
+                                                                              
+            // // write a javascript program to check whether a string  a string "script" appear at the 5th (index 4) position in given string if "script" appear in the string return the string without script otherwise return the originol one.................................
+            // function cheack_script(str) {
+            //       if(str.length < 6){
+            //             return str;
+
+            //       }
+            //       let result_str = str;
+
+            //       if( str.substring(10,4) == "srcipt")
+            //       {
+            //             result_str = str.substring(0,4) + str.substring(10, str.length);
+            //       }
+            //       return result_str;
+            // }
+            // // console.log(cheack_script("javascrpt"));
+            // // console.log(cheack_script("coffiscrpt"));
+            // function max_of_three(x,y,z) {
+            //       let max_value = 0;
+            //      if ((x > y && x < y) || (y > z && y < z) || ( z > x && z < x)) {
+            //             return max_value;
+            //       }
+            // }
+            // console.log(max_of_three(100,100,18));
+            // console.log(max_of_three(100,37,18));
+            // // console.log(max_of_three(59,100,18));
+            // // to find largest of three given number...................
+            // function check_max_value(x,y,z) {
+            //       let max_value = 0;
+            //       if(x > y){
+            //             max_value = x;
+            //       }else{
+            //             max_value = y;
+            //       }
+            //       if (z > max_value) {
+            //             max_value = z;
+            //       }
+            //       return max_value;
+            // }
+            // console.log(check_max_value(16 ,45 ,56));
+            // console.log(check_max_value(16 ,500 ,56));
+            // // console.log(check_max_value(16 ,45 ,56));
+            // function near_100(x,y) {
+            //       if(x != y){
+            //             x1 = Math.abs(x - 100);
+            //             y1 = Math.abs(x - 100);
+
+            //             if(x1 < y1){
+            //                   return x;
+            //             }
+            //             if(y1 > x1){
+            //                   return y1;
+            //             }
+            //             return 0;
+            //       }else{
+            //             return false;
+            //       }
+            // }
+            // console.log(near_100(90 , 89));
+            // console.log(near_100(-90 , -89));
+            // console.log(near_100(90 , 90));
+            // console.log(near_100(90 , 89));
+            // Range in 40...60 or 70...100..............................................................
+            // function range_in(x,y) {
+            //       if((x >= 40 && x <= 60 && y >= 40 && y <= 60) ||( x >= 70 && x <= 100 && y >= 70 && y <= 100)) {
+            //             return true;
+            //       }else{
+            //             return false;
+            //       }
+            // }
+            // // console.log(range_in(44 , 55))
+            // // to find largest intiger and the number is in range beetween 40...60.................................
+            // function max_two_nums(x , y) {
+            //       if(x >= 40 && x <= 60 && y >= 40 && y <= 60 ){
+            //             if(x === y ){
+            //                   return "both intiger same";
+            //             }
+            //             if(x > y){
+            //                   return x;
+            //             }else{
+            //                   return y;
+            //             }
+            //       }else{
+            //             return "number don't fit in range"
+            //       }
+            // }
+            // console.log(max_two_nums(40,60));
+            // console.log(max_two_nums(4,60));
+            // console.log(max_two_nums(40,6));
+
+            
+             </script>
+</body>
+</html>
